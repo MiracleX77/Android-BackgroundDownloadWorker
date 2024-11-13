@@ -1,0 +1,64 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Ignore Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore files for Android Studio
+.idea/
+*.hprof
+*.orig
+
+# Ignore APK and AAB files
+*.apk
+*.aab
+
+# Ignore local properties file (contains paths to Android SDK)
+
+# Ignore generated files from lint
+lint/outputs/
+lint/reports/
+
+# Ignore files related to build outputs
+app/build/
+outputs/
+captures/
+
+# Ignore test outputs
+*/build/test-results/
+*/build/test-results/*
+*/build/outputs/code-coverage/
+
+# Ignore JetBrains specific files
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.csproj
+
+# Ignore OS-specific files
+*.DS_Store
+*.stackdump
+*.swp
+*.lock
+*.lock-wscript
+*~
+*.tmp
+*.log
+*.log.*
